@@ -1,0 +1,40 @@
+{ 
+    "_id" : ObjectId("5b3b70f748ca9e0e609ffe66"), 
+    "id" : NumberLong(1), 
+    "firstName" : "React", 
+    "lastName" : "Admin", 
+    "email" : "react.admin@gmail.com", 
+    "role" : "Admin", 
+    "password" : "admin", 
+    "fileLocation" : "D:/"
+}
+{ 
+    "_id" : ObjectId("5b3b719bd879b50e604e2176"), 
+    "id" : NumberLong(2), 
+    "firstName" : "Sunil", 
+    "lastName" : "Manyam", 
+    "email" : "sunil.manyam@gmail.com", 
+    "role" : "HrUser", 
+    "password" : "sunil", 
+    "fileLocation" : "D:/"
+}
+{ 
+    "_id" : ObjectId("5b3b71c5d879b50e604e2177"), 
+    "id" : NumberLong(3), 
+    "firstName" : "Santosh", 
+    "lastName" : "Narayanappa", 
+    "email" : "santosh.narayanappa@gmail.com", 
+    "role" : "HrUser", 
+    "password" : "santosh", 
+    "fileLocation" : "D:/"
+}
+{ 
+    "_id" : ObjectId("5b3b7210d879b50e604e2178"), 
+    "id" : NumberLong(4), 
+    "firstName" : "Test", 
+    "lastName" : "Candidate", 
+    "email" : "test.candidate@gmail.com", 
+    "role" : "Candidate", 
+    "password" : "candidate", 
+    "fileLocation" : "D:/"
+}

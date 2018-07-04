@@ -1,0 +1,18 @@
+{ 
+    "_id" : ObjectId("5b3b747948ca9e0e609ffe69"), 
+    "jobId" : NumberLong(1), 
+    "userId" : NumberLong(4), 
+    "status" : "Applied"
+}
+{ 
+    "_id" : ObjectId("5b3b74f5d879b50e604e217c"), 
+    "jobId" : NumberLong(2), 
+    "userId" : NumberLong(4), 
+    "status" : "Rejected"
+}
+{ 
+    "_id" : ObjectId("5b3b752ad879b50e604e217d"), 
+    "jobId" : NumberLong(3), 
+    "userId" : NumberLong(4), 
+    "status" : "In progress"
+}

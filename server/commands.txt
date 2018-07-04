@@ -1,0 +1,57 @@
+git config --global http.proxy http://proxy.ebiz.verizon.com:80
+
+
+git clone -b react-mongo-graphql https://github.com/igorlima/todomvc.git
+
+https://www.compose.com/articles/using-graphql-with-mongodb/
+
+
+query Query {  
+  todos {
+    id,
+    title
+  }
+}
+
+
+mutation {  
+  add(title: "Read a book") {
+    id,
+    title
+  }
+}
+
+
+query { jobs { jobId, jobTitle, jobDescription, skills, portfolio, status}}
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA6dO1VXDMMxYMPrCdUgUZWI3yyq7zumxo",
+    authDomain: "jobportal-644f2.firebaseapp.com",
+    databaseURL: "https://jobportal-644f2.firebaseio.com",
+    projectId: "jobportal-644f2",
+    storageBucket: "",
+    messagingSenderId: "463802148293"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+{
+  "query": "{ jobs{ id,jobTitle, jobDescription, skills} }"
+}
+
+
+
+{
+  "query": "{ jobs{ id,jobTitle, jobDescription, skills} }"
+}
+
+
+{ "query": "{ users{ firstName,lastName, email, fileLocation, role} }" }
